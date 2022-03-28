@@ -5,7 +5,9 @@ import styles from '../styles/task2.module.css'
 export default function Task2() {
   return (
     <Layout>
-      <div>Task2</div>
+      <div>
+        
+      </div>
     </Layout>
   )
 }
