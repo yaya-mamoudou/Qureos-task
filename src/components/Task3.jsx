@@ -39,7 +39,7 @@ export default function Task3() {
   return (
     <Layout>
       <form onSubmit={getMovieTitles}>
-            <div className=''>
+            <div className='w-fit'>
               <div className='text-left'>Select date</div>
                 <div className='space-x-2 d-flex'>
                     <input type="date"  onChange={handleDate} style={{backgroundColor:'white',border:'solid 2px #ccc',outline:'none'}} className="p-2 rounded-md "/>
