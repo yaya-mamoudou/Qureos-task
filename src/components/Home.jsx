@@ -10,11 +10,11 @@ export default function Home() {
                   <Link to={'/task1'} >Task 1</Link>
               </div>
               <div  className="p-[50px] shadow-lg shadow-slate-400 rounded-lg bg-teal-400">
-                  <Link to={'/task2'}>Task 1</Link>
+                  <Link to={'/task2'}>Task 2</Link>
               </div>
             </div>
             <div className="p-[50px] flex items-center justify-center shadow-lg shadow-slate-400 flex-grow rounded-lg bg-cyan-500">
-                <Link to={'/task3'}>Task 1</Link>
+                <Link to={'/task3'}>Task 3</Link>
             </div>
           </div>
    </Layout>

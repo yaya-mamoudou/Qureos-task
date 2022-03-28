@@ -6,8 +6,8 @@ function App() {
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/task1" element={<Task1 />} />
-        <Route path="/task1" element={<Task2 />} />
-        <Route path="/task1" element={<Task3 />} />
+        <Route path="/task2" element={<Task2 />} />
+        <Route path="/task3" element={<Task3 />} />
     </Routes>
     
   );
