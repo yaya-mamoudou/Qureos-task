@@ -39,7 +39,8 @@ export default function Task3() {
   return (
     <Layout>
       <form onSubmit={getMovieTitles}>
-            <div className='flex flex-col'>
+            <div className=''>
+              <div className='text-left'>Select date</div>
                 <div className='space-x-2 d-flex'>
                     <input type="date"  onChange={handleDate} style={{backgroundColor:'white',border:'solid 2px #ccc',outline:'none'}} className="p-2 rounded-md "/>
                     <button onClick={getMovieTitles} type='button' className='text-white bg-blue-600 p-2 rounded-md '> {isSearching ? <Loader/> : <span>Submit</span>} </button>
